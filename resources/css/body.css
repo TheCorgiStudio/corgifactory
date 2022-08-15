@@ -1,0 +1,597 @@
+/* Body Style */
+.corgi {
+    width:98%;
+    height: 100%;
+    border: 6px rgba(218, 165, 32, 0.1) solid;
+    margin: 0 1%;
+    border-radius: 2rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: transparent;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.corgi div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corgi img {
+    height: 5rem;
+    width: 5rem;
+    border: 2px goldenrod solid;
+    margin: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 2px white, 0 0 3px white, 0 0 5px white, 0 0 8px gold;
+}
+
+.corgi h1 {
+    color: goldenrod;
+}
+
+.corgi2 {
+    width:98%;
+    height: 100%;
+    border: 6px rgba(218, 165, 32, 0.1) solid;
+    margin: 1% 1%;
+    border-top: transparent;
+    border-bottom: transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.market {
+    grid-column: 1 / 2;
+}
+.token {
+    grid-column: 2 / 3;
+}
+
+.market p, .token p{
+    font-size: 2rem;
+    color: goldenrod;
+    text-align: center;
+    line-height: 4rem;
+    border: 10px gold solid;
+    border-radius: 2rem;
+    margin: 0.5rem 2rem;
+    background-image: url(../img/smoke-background.jpg);
+}
+
+.market p a, .token p a {
+    text-decoration: none;
+    color: white;
+    border: 2px goldenrod solid;
+    padding: 0.35rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px white, 0 0 7px white, 0 0 10px white, 0 0 15px gold;
+    text-shadow: 0 0 5px white, 0 0 7px white, 0 0 10px white, 0 0 15px gold;
+}
+.market p img, .token p img  {
+    width: 10rem;
+    height: 10rem;
+    border: 2px goldenrod solid;
+    border-radius: 2rem;
+    background-color: goldenrod;
+    box-shadow: 0 0 5px white, 0 0 7px white, 0 0 10px white, 0 0 15px gold;
+}
+
+.corgi3 {
+    width:98%;
+    height: 100%;
+    border: 6px rgba(218, 165, 32, 0.1) solid;
+    margin: 1% 1%;
+    border-top: transparent;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    text-align: center;
+    color: goldenrod;
+}
+
+.corgi3 p {
+    font-size: 2rem;
+}
+
+.corgi3 img {
+    border: 2px goldenrod solid;
+    border-radius: 1.5rem;
+}
+/* NFT drop section */
+
+.nftdrop {
+    width: 100%;
+    border: 5px rgba(218, 165, 32, 0.1) solid;
+    border-radius: 2rem;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../img/smoke-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nftdrop h1 {
+    background-image: url(../img/nftdrop.png);
+    padding: 1rem;
+    color: gold;
+    text-shadow: 0 0 2px rgba(255, 255, 0, 0.774), 0 0 4px rgba(255, 255, 0, 0.87);
+    border: 2px goldenrod solid;
+    border-radius: 1rem;
+    box-shadow: 0 0 2px white, 0 0 3px white, 0 0 5px white, 0 0 8px gold;
+}
+
+.nftdrop section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nftdrop div {
+    width: 30%;
+    min-width: 500px;
+    height: 500px;
+    border: 2px gold solid;
+    text-align: center;
+    border-radius: 5rem;
+    margin: 1rem;
+    display: grid;
+    grid-template: 1fr 1fr 1fr/ 1fr 2fr;
+    align-items: center;
+}
+
+.nftdrop div img{
+    width: 7rem;
+    height: 7rem;
+    margin: 3rem;
+    grid-area: 1 / 1 / 2 / 2;
+    border: 2px goldenrod solid;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px white, 0 0 7px white, 0 0 10px white, 0 0 15px gold;
+}
+
+.nftdrop div h2 {
+    color:goldenrod;
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.nftdrop div h3{
+    width: 100%;
+    height: 100%;
+    grid-area: 2 / 1 / 3 / 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+.nftdrop div h3 a {
+    text-decoration: none;
+    color: goldenrod;
+    border: 1px goldenrod solid;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px gold;
+}
+
+.nftdrop div p {
+    width: 100%;
+    height: 100%;
+    grid-area: 2 / 2 / 3 / 3;
+    color: gold;
+    line-height: 1.75rem;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.mint {
+    grid-area: 3 / 2 / 4 / 3;
+    text-decoration: none;
+    color: white;
+    border: 2px gold solid;
+    margin: 0 4.5rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    box-shadow: 0 0 5px white, 0 0 7px white, 0 0 10px white, 0 0 15px gold;
+    text-shadow: 0 0 5px white, 0 0 7px white, 0 0 10px white, 0 0 15px gold;
+}
+
+/* Partner section style */
+.partners {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.partners h1 {
+    text-align: center;
+    color: goldenrod;
+}
+
+.partners div {
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partners div a img {
+    width: 5rem;
+    height: 5rem;
+    border: 2px goldenrod solid;
+    border-radius: 1rem;
+    margin: 0.25rem;
+    box-shadow: 0 0 2px white, 0 0 5px white, 0 0 7px white, 0 0 10px gold;
+}
+
+/* Disclaimer */
+.disclaimer {
+    width: 100%;
+    height: 100%;
+    margin: 1rem;
+    border: 5px goldenrod solid;
+    display: block;
+    text-align: center;
+    border-radius: 2rem;
+    background-image: url(../img/smoke-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.disclaimer h1 {
+    color: gold;
+}
+
+.disclaimer div {
+    text-align: left;
+    margin: 4rem;
+    color: goldenrod;
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: goldenrod;
+    border: 2px goldenrod solid;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+/* Resize style */
+@media only screen and (max-width: 1200px){
+    .corgi{
+        border: 4px rgba(218, 165, 32, 0.1) solid;
+        border-bottom: transparent;
+        margin: 0 0.75%
+    }
+
+    .corgi img {
+        height: 3.5rem;
+        width: 3.5rem;
+        margin: 0.5rem;
+        border-radius: 0.75rem;
+    }
+
+    .corgi h1 {
+        font-size: 1rem;
+    }
+
+    .corgi2 {
+        border: 4px rgba(218, 165, 32, 0.1) solid;
+        border-bottom: transparent;
+        border-top: transparent;
+        margin: 0.75% 0.75%;
+    }
+
+    .market p, .token p{
+        font-size: 0.75rem;
+        line-height: 1.25rem;
+        font-weight: 700;
+        border: 5px gold solid;
+        border-radius: 1.75rem;
+        margin: 0.5rem 0.75rem;
+    }
+    .market p a, .token p a {
+        color: white;
+        background-color: transparent;
+        box-shadow: 0 0 5px white, 0 0 7px white, 0 0 10px white, 0 0 15px gold;
+        text-shadow: 0 0 5px white, 0 0 7px white, 0 0 10px white, 0 0 15px gold;
+        padding: 0.25rem;
+        border-radius: 0.4rem;
+        font-size: 0.75rem;
+    }
+    .market p img, .token p img {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 1.5rem;
+    
+    }
+    .corgi3{
+        border: 4px rgba(218, 165, 32, 0.1) solid;
+        border-top: transparent;
+        margin: 0.5% 0.75%
+    }
+    .corgi3 p {
+        font-size: 0.75rem;
+        font-weight: 700;
+    }
+    
+    .corgi3 img {
+        width: 100px;
+        border: 2px goldenrod solid;
+        border-radius: 0.5rem;
+    }
+
+    .corgi3 h1{
+        font-size: 1rem;
+    }
+    /* NFT drop section */
+    .nftdrop {
+        width: 100%;
+        border: 4px rgba(218, 165, 32, 0.1) solid;
+        border-radius: 1.75rem;
+        margin: 0.75%;
+        margin-bottom: 1%;
+    }
+    .nftdrop h1 {
+        padding: 0.75rem;
+        font-size: 1.25rem;
+    }
+
+    .nftdrop div {
+        width: 30%;
+        min-width: 390px;
+        height: 390px;
+        border-radius: 3rem;
+        margin: 0.5rem;
+    }
+
+    .nftdrop div img{
+        width: 5rem;
+        height: 5rem;
+        margin: 2rem;
+        border-radius: 0.75rem;
+    }
+    .nftdrop div h2 {
+        font-size: 1rem;
+    }
+    .nftdrop div h3 a {
+        text-decoration: none;
+        border: 1px goldenrod solid;
+        padding: 0.1rem;
+        border-radius: 0.25rem;
+        font-size: 0.85rem;
+    }
+    .nftdrop div p {
+        width: 100%;
+        height: 100%;
+        grid-area: 2 / 2 / 3 / 3;
+        color: gold;
+        line-height: 1.5rem;
+        font-size: 0.75rem;
+        text-align: left;
+        font-weight: 700;
+    }
+
+    .mint {
+        padding: 0.25rem;
+        border-radius: 0.6rem;
+        font-size: 1rem;
+    }
+    .partners h1 {
+        font-size: 1.25rem;
+    }
+    .partners div a img {
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 0.75rem;
+        margin: 0.25rem;
+        box-shadow: 0 0 1px white, 0 0 3px white, 0 0 5px white, 0 0 8px gold;
+    }
+    /*disclaimer */
+    .disclaimer {
+        width: 100%;
+        height: 100%;
+        margin: 0.75rem;
+        border: 4px goldenrod solid;
+        border-radius: 1.75rem;
+    }
+    
+    .disclaimer h1 {
+        font-size: 1.25rem;
+    }
+    
+    .disclaimer div {
+        margin: 1rem;
+    }
+    .disclaimer div h2{
+        font-size: 1.25rem;
+    }
+    .disclaimer div p {
+        font-size: 0.9rem;
+    }
+    .navigation a {
+        font-size: 1rem;
+        border-radius: 0.75rem;
+        padding: 0.25rem;
+        margin: 0.5rem
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .corgi{
+        border: 3px rgba(218, 165, 32, 0.1) solid;
+        border-bottom: transparent;
+        margin: 0.25rem 0;
+    }
+
+    .corgi img {
+        height: 2.75rem;
+        width: 2.75rem;
+        margin: 0.25rem 0.5rem;
+        border-radius: 0.75rem;
+    }
+
+    .corgi h1 {
+        font-size: 0.8rem;
+    }
+
+    .corgi2 {
+        border: 3px rgba(218, 165, 32, 0.1) solid;
+        margin: 0.25rem 0;
+        border-top: transparent;
+        border-bottom: transparent;
+    }
+
+    .market p, .token p{
+        font-size: 0.7rem;
+        line-height: 1rem;
+        font-weight: 700;
+        border: 2px gold solid;
+        border-radius: 1.75rem;
+        margin: 0.25rem;
+        padding: 0.5rem;
+    }
+    .market p a, .token p a {
+        color: white;
+        background-color: transparent;
+        box-shadow: 0 0 5px white, 0 0 7px white, 0 0 10px white, 0 0 15px gold;
+        text-shadow: 0 0 5px white, 0 0 7px white, 0 0 10px white, 0 0 15px gold;
+        padding: 0.25rem;
+        border-radius: 0.4rem;
+        font-size: 0.65rem;
+    }
+    .market p img, .token p img {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 1rem;
+    
+    }
+    .corgi3{
+        border: 3px rgba(218, 165, 32, 0.1) solid;
+        border-top: transparent;
+        margin: 0;
+    }
+    .corgi3 p {
+        font-size: 0.6rem;
+        font-weight: 700;
+    }
+    
+    .corgi3 img {
+        width: 95px;
+        border: 2px goldenrod solid;
+        border-radius: 0.5rem;
+    }
+
+    .corgi3 h1{
+        font-size: 0.8rem;
+    }
+    /* NFT drop section */
+    .nftdrop {
+        width: 100%;
+        border: 3px rgba(218, 165, 32, 0.1) solid;
+        border-radius: 1.75rem;
+        margin: 0.5%;
+        margin-bottom: 1%;
+    }
+    .nftdrop h1 {
+        padding: 0.5rem;
+        font-size: 1rem;
+        border-radius: 0.75rem;
+    }
+
+    .nftdrop div {
+        width: 30%;
+        min-width: 300px;
+        height: 300px;
+        border-radius: 2rem;
+        margin: 0.25rem;
+    }
+
+    .nftdrop div img{
+        width: 3.5rem;
+        height: 3.5rem;
+        margin: 1.25rem;
+        border-radius: 0.5rem;
+    }
+    .nftdrop div h2 {
+        font-size: 0.8rem;
+    }
+    .nftdrop div h3 a {
+        text-decoration: none;
+        border: 1px goldenrod solid;
+        padding: 0.1rem;
+        border-radius: 0.25rem;
+        font-size: 0.75rem;
+    }
+    .nftdrop div p {
+        width: 100%;
+        height: 100%;
+        grid-area: 2 / 2 / 3 / 3;
+        color: gold;
+        line-height: 1.25rem;
+        font-size: 0.7rem;
+        text-align: left;
+        font-weight: 700;
+    }
+
+    .mint {
+        padding: 0.25rem;
+        border-radius: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .partners {
+        width: 85%;
+    }
+    .partners h1 {
+        font-size: 1rem;
+    }
+    .partners div a img {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 0.5rem;
+        margin: 0.25rem;
+        box-shadow: 0 0 1px white, 0 0 3px white, 0 0 5px white, 0 0 8px gold;
+    }
+    /*disclaimer */
+    .disclaimer {
+        width: 100%;
+        height: 100%;
+        margin: 0.75rem;
+        border: 3px goldenrod solid;
+        border-radius: 1.75rem;
+    }
+    
+    .disclaimer h1 {
+        font-size: 1.25rem;
+    }
+    
+    .disclaimer div {
+        margin: 1rem;
+    }
+    .disclaimer div h2{
+        font-size: 1.25rem;
+    }
+    .disclaimer div p {
+        font-size: 0.9rem;
+    }
+    .navigation a {
+        font-size: 1rem;
+        border-radius: 0.75rem;
+        padding: 0.25rem;
+        margin: 0.5rem
+    }
+}
+

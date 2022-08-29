@@ -1,0 +1,63 @@
+.logo {
+    animation: rotateLogo 10s linear infinite;
+}
+.logo:hover {
+    animation-play-state: paused;
+}
+@keyframes rotateLogo{
+    25%{
+        transform: rotate(90deg)
+    }
+
+    50%{
+        transform: rotate(180deg)
+    }
+
+    75%{
+        transform: rotate(270deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
+.nftdrop div img {
+    animation: rotateNFT 2s linear infinite;
+}
+@keyframes rotateNFT {
+    25% {
+        transform:translate(5px, 0px);
+    }
+
+    50%{
+        transform:translate(0px, 0px);
+    }   
+
+    75%{
+        transform:translate(-5px, 0px);
+    }
+    100%{
+        transform:translate(0px, 0px);
+    }
+}
+
+header h1 {
+    animation: logoLight 4s linear infinite;
+}
+@keyframes logoLight {
+    25%{
+        text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px gold;
+    }
+
+    50%{
+        text-shadow: none;
+    }
+
+    75%{
+        text-shadow: 0 0 1px white, 0 0 3px white, 0 0 5px gold;
+    }
+
+    100%{
+        text-shadow: none;
+    }
+}

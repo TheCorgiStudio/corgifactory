@@ -47,6 +47,7 @@ header div {
     border: 3px goldenrod solid;
     border-radius: 1rem;
     padding: 0.25rem;
+    transition-duration: 500ms;
 }
 
 .social:hover{

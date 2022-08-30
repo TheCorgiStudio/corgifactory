@@ -40,3 +40,24 @@
         transform:translate(0px, 0px);
     }
 }
+
+header h1 {
+    animation: logoLight 4s linear infinite;
+}
+@keyframes logoLight {
+    25%{
+        text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px gold;
+    }
+
+    50%{
+        text-shadow: none;
+    }
+
+    75%{
+        text-shadow: 0 0 1px white, 0 0 3px white, 0 0 5px gold;
+    }
+
+    100%{
+        text-shadow: none;
+    }
+}
